@@ -6,17 +6,17 @@
 # - 7 -> да
 # - 1 -> нет
 
-def isWeekendDay():
+def is_Weekend_Day():
 	print("Введите день недели: ")
-	dayNumber = int(input())
+	day_Number = int(input())
 
-	while(dayNumber <= 0 or dayNumber > 7):
+	while(day_Number <= 0 or day_Number > 7):
 		print("Введите число от 0 до 7: ")
-		dayNumber = int(input())
+		day_Number = int(input())
 
-	if dayNumber > 0 and dayNumber <= 5:
+	if day_Number > 0 and day_Number <= 5:
 		print ("Нет")
-	if dayNumber > 5 and dayNumber <= 7:
+	if day_Number > 5 and day_Number <= 7:
 		print ("Да")
 
-isWeekendDay()
+is_Weekend_Day()
